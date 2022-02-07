@@ -47,6 +47,7 @@ The steps:
 
    - .git
    - .github
+   - .editorconfig
    - changelog, code of conduct, contributing, license, and readme
 
    Move **everything else** into `test-app`
