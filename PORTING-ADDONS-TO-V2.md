@@ -61,21 +61,22 @@ The steps:
 
    ```
    {
-     private: true,
-     workspaces: [
+     "private": true,
+     "workspaces": [
        "addon",
        "test-app"
      ]
    }
    ```
 
-1. Make a new top-level .gitignore:
+1. Make a new top-level `.gitignore`:
 
    ```
    # you definitely want this:
    node_modules
 
    # and you can put in anything else that tends to accumulate in your environment:
+   npm-debug.log*
    yarn-error.log
    .DS_Store
    ```
